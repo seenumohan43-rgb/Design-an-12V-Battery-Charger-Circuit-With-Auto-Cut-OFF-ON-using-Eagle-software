@@ -43,7 +43,7 @@ Such circuits are commonly used for lead-acid batteries, UPS batteries, emergenc
 The **12V battery charger circuit with auto cut-off and on** works by continuously monitoring the battery voltage and controlling the charging process using a voltage comparator and a relay switch. When the circuit is powered, the relay initially connects the charger output to the battery, allowing current to flow and begin charging. As the battery voltage gradually increases, the voltage sensing section—typically built using an operational amplifier (like LM324 or LM358)—compares the battery voltage with a preset reference voltage. Once the battery voltage reaches the full-charge level, usually around **14.4V**, the comparator changes its output state, de-energizing the relay coil. This action disconnects the charger from the battery, effectively stopping the charging process and preventing overcharging. When the battery is used and its voltage drops below a preset lower threshold (around **11.8V–12V**), the comparator again switches its state, re-energizing the relay and reconnecting the charger to the battery. Thus, the circuit automatically restarts charging without any manual intervention. The system may include **LED indicators** to show charging and full-charge status, making it user-friendly. This automatic operation ensures safe charging, longer battery life, and reliable performance for various 12V battery applications.
 
 <img width="382" height="318" alt="image" src="https://github.com/user-attachments/assets/0abf47c4-6ae1-4247-8c1a-09f1546ef0ef" />
-
+.
 # CIRCUIT DIAGRAM:
 
 ## Schematic diagram
